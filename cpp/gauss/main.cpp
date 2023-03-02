@@ -5,8 +5,8 @@ ifstream f("C:\\Users\\Darius Corneciu\\CLionProjects\\algebraliniara\\cpp\\trad
 
 int main()
 {
-    double matrix[100][100], det = 1,n;
-
+    double matrix[100][100], det = 1,n,t,retin;
+    bool ok = false;
     f>>n;
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -16,7 +16,7 @@ int main()
 
     for (int i = 0; i < n; ++i)
     {
-        bool ok = false;
+       
         if (matrix[i][i] == 0)
         {
             ok = true;
@@ -25,7 +25,7 @@ int main()
                 if (matrix[j][i] != 0) {
                     det *= -1;
                     for (int k = 0; k < n; ++k) {
-                        double t = matrix[i][k];
+                        t = matrix[i][k];
                         matrix[i][k] = matrix[j][k];
                         matrix[j][k] = t;
                         ok = false;
@@ -43,7 +43,7 @@ int main()
 
             for (int j = i+1; j < n; ++j)
             {
-                double retin = matrix[j][i];
+                retin = matrix[j][i];
                 for (int k = i; k < n; ++k) {
                     matrix[j][k] -= (matrix[i][k]*retin)/matrix[i][i];
 
