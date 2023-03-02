@@ -1,3 +1,4 @@
-# Algebra Liniara
+# 🦆Algebra Liniara
 
-Mini Project
+Proiectul consta in calcularea timpilor de rulare a celor doua posibiltati de calculare a determinantului
+
