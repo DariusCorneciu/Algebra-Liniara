@@ -14,3 +14,5 @@ Proiectul consta in calcularea timpilor de rulare a celor doua posibiltati de ca
 ### 🗂️Concluzii
 Metoda traditionala este mai usor de inteles, dar fiind recursiva timpul de rulare este mult mai mare. 
 
+### 💡Realizator
+Corneciu Darius-Stefan, 142
