@@ -7,7 +7,7 @@ Proiectul consta in calcularea timpilor de rulare a celor doua posibiltati de ca
 - Traditional: O(n^3)
 - Gauss: O(n^2 log(n) )
 
-### ⏱️Timp de rulare
+### ⏱️CPU Time
 - Traditional:
 - Gauss: 
 
